@@ -3,5 +3,5 @@ customuser = "admin"
 custompass = "aacs3253"
 customdb = "customer"
 custombucket = "tanxueyi-customer"
-customregion = "us-east-1a"
+customregion = "us-east-1"
 
