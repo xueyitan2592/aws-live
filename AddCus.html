@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Customer Information</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Customer Database</h1>
+
+		<body bgcolor="lightgrey">
+
+			<form action="/addcus" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getcus" style="background: grey; height: 45px; width: 200px; color:white; font:oblique;">GET CUSTOMER INFORMATION</button><br><br>
+
+		  		First Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="first_name" ><br><br>
+
+		  		Last Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="last_name"><br><br>
+
+		  		Email:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="email"><br><br>
+
+		  		Password:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="password"><br><br>
+
+		  		Image: <input type=file name="cus_image_file" style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+		  		<button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+			</form>
+<a href="/about">About Us</a>
+		</body>
+
+	</font>
+</center>
+</html>
+
