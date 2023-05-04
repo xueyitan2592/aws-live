@@ -42,7 +42,7 @@ def AddCus():
     insert_sql = "INSERT INTO customer VALUES (%s, %s, %s, %s)"
     cursor = db_conn.cursor()
 
-    if emp_image_file.filename == "":
+    if cus_image_file.filename == "":
         return "Please select a file"
 
     try:
